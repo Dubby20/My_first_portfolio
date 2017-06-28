@@ -1,0 +1,20 @@
+header{
+   height: 100px;
+   width: 100%;
+   background-color: grey;
+}
+section{
+    height: 40px;
+    width:30px;
+    color: white;
+    background-color: light grey
+}
+h1 {
+    font-family: Roboto Mono;
+}
+.greybox {
+    background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
