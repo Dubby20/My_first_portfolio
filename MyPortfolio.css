@@ -1,20 +1,61 @@
 header{
-   height: 100px;
-   width: 100%;
    background-color: grey;
+   height: 92px;
+
+}
+/*.topnav {
+    display: block;
+    color: #4CAF50;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100%;
+}
+#myTopnav a{
+    float: center;
+    display: block;
+    color: #4CAF50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;*/
+/*}*/
+.title{
+    width: 45%;
+}
+.menu{
+    width: 45%;
+    float: left;
+
+}
+
+.topnav li {
+    display: block;
+    float: right;
+}
+
+header nav li{
+    display: grid;
+    float: inline-end;
+    position: relative;
+    height: 92px;
+    border: 0px;
 }
 section{
-    height: 40px;
-    width:30px;
     color: white;
     background-color: light grey
 }
 h1 {
-    font-family: Roboto Mono;
+    font-family: Roboto+Mono;
 }
 .greybox {
     background-color: grey;
     font-size: 30px;
     padding: 10px;
     text-align: center;
+}
+body{
+    background-color:"#E6E6FA"
 }
